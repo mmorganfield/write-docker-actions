@@ -20,7 +20,7 @@ for fact in r_obj_list:
 def select_random_fact(fact_arr):
     return fact_arr[random.randint(0, len(fact_list)+1)]
 
-random_fact = select_random_fact(fact_list)
+random_fact = "The catfact site no longer functions, for cats"
 
 # Print the individual randomly returned cat-fact
 print(random_fact)
